@@ -3,8 +3,13 @@
   и их переопределение под различные устройства
 */
 :root {
-  .page {
-    background-color: var(--bg-color);
-    background-image: var(--bg-image);
-  }
+    --bg-color: #000532;
+    --bg-image: url("../images/cover-image-dark.png");
+    --menu-color: rgba(255, 0, 112, 1);
+    --full-answer-color: rgba(241, 178, 206, 1);
+    --padding: 10px;
+    --h1-text-color: rgba(219, 0, 255, 1);
+    --accent-color: rgba(255, 0, 112, 1);
+    --h2-text-color: rgba(0, 0, 40, 1);
+    --font-size-standart: 18px;
 }

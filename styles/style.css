@@ -6,5 +6,114 @@
   background-image: var(--bg-image);
   background-attachment: fixed;
   background-size: cover; 
-  height: 100%; 
+  background-position: center;
+  inline-size: 100%; 
+  min-inline-size: 320px;
+  font-family: "IBM Plex Mono", "sans-serif";
+  padding-inline-start: var(--padding);
+  padding-inline-end: var(--padding);
+  padding-block-start: var(--padding);
+  padding-block-end: var(--padding);
+}
+
+.header {
+  block-size: 100vh;
+  min-block-size: 668px;
+  inline-size: 100%;
+}
+
+.header__rec {
+  color: var(--menu-color);
+  font-size: 33px;
+  position: relative;
+  text-align: right;
+  display: grid;  
+}
+
+.header__rec::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  width: 25px;
+  height: 25px;
+  background-color: var(--menu-color);  
+  border: 1px solid var(--menu-color);
+  border-radius: 50%;
+  box-shadow: 0 0 10px 5px var(--menu-color)
+}
+
+.header__theme-menu-list {
+  list-style-type: none;
+  display: grid;
+  justify-self: self-end;
+  align-self: flex-end;
+  gap: 20px;
+  font-size: 18px;
+  color: var(--menu-color);
+}
+
+.header__theme-menu-button {
+  all: unset;
+  cursor: pointer;
+  }
+
+  .title__section {
+
+  }
+
+  .h1 {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    inline-size: 100%;
+    font-weight: 700;
+    color: var(--h1-text-color);
+    text-shadow: 4px 4px var(--accent-color);
+  }
+
+  .h2 {
+    background-color: var(--accent-color);
+    color: var(--h2-text-color);
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .questions {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style-type: none;
+    padding-inline-start: 0;
+  }
+  .question__name {
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .answer_name {
+    background-color: var(--accent-color);
+  }
+
+  .full__answer {
+    color: var(--full-answer-color);
+    font-size: 18px;
+    background-color: none; 
+    font-weight: 400;
+  }
+
+  .gallery__section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    list-style-type: none;
+  }
+
+  .gallery__section img {
+    inline-size: 100%;     
+    object-fit: cover;                            
+}
+
+.footer {
+  block-size: 100vh;
+  min-block-size: 668px;
+  inline-size: 100%;
 }

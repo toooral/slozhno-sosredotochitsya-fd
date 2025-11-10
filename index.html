@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="./images/mobile-icon.png">
+    <link rel="stylesheet" href="./fonts/fonts.css"> 
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
@@ -17,7 +18,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <img class="header__image" src="./images/Rec.png" alt="Активный индикатор записи REC"/>
+      <span class="header__rec">REC</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -49,10 +50,12 @@
         <h2 class="h2">Что делать, когда не можешь делать ничего 
         Или почему нам так сложно сконцентрироваться, особенно когда очень надо</h2>
       </section>
+    </header>
+    <main class="main">
       <section class="questions__section">
         <ul class="questions"> 
           <h3 class="question__name">Почему сосредоточиться так сложно</h3>
-          <li сlass="answer_name">Мгогозадачность
+          <li class="answer_name">Мгогозадачность
             <p class="full__answer"> Особенно сложно сосредоточиться, когда задач много и все они — важные. Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? А дело в том, что её просто не существует. Исследователи выяснили, что мозгу тяжело концентрироваться даже на двух делах одновременно. А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.></p>
           </li>
           <li class="answer_name">Дофамин
@@ -94,21 +97,21 @@
       <section class="gallery__section">
         <ul class="question__name gallery_name">А можно в картинках?</ul>
           <li class="gallery__image">
-            <img src="./images/sunset.png" alt="Закат">
+            <img src="./images/sunset.png" alt="Закат" loading="lazy">
           </li>
           <li class="gallery__image">
-            <img src="./images/ice-cream.png" alt="Мороженое в тарелке с фруктами в стиле аниме">
+            <img src="./images/ice-cream.png" alt="Мороженое в тарелке с фруктами в стиле аниме" loading="lazy">
           </li>
           <li class="gallery__image">
-            <img src="./images/tape.png" alt="Аудио кассета">
+            <img src="./images/tape.png" alt="Аудио кассета" loading="lazy">
           </li>
           <li class="gallery__image">
-            <img src="./images/street.png" alt="Японский квартал в стиле аниме">
+            <img src="./images/street.png" alt="Японский квартал в стиле аниме" loading="lazy">
           </li>
-      </section>
-    </header>
+      </section> 
+    </main>
     <footer class="footer">
-      <span class="footer__text">focus></span>
+      <span class="footer__text">focus</span>
     </footer>
   </body>
 </html>

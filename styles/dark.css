@@ -1,12 +1,7 @@
 
-@media (prefers-color-scheme: dark) {
-  :root { 
-    --bg-color: #000532;
-    --bg-image: url("../images/cover-image-dark.png");
-    } 
-  }
-
   :root.theme-dark {
     --bg-color: #000532;
     --bg-image: url("../images/cover-image-dark.png");
+    --menu-color: rgba(255, 0, 112, 1);
+     --full-answer-color: rgba(241, 178, 206, 1);
   }

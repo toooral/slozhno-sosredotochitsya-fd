@@ -1,12 +1,17 @@
 
+  :root.theme-light {
+    --bg-color: #ffeef6;
+    --bg-image: url("../images/cover-image-light.png");
+    --menu-color: rgba(53, 52, 48, 1);
+    --full-answer-color: rgba(53, 52, 48, 1);
+
+}
+
 @media (prefers-color-scheme: light) {
   :root { 
     --bg-color: #ffeef6;
     --bg-image: url("../images/cover-image-light.png");
+    --menu-color: rgba(53, 52, 48, 1);
+    --full-answer-color: rgba(53, 52, 48, 1);
    }
   }
-
-  :root.theme-light {
-    --bg-color: #ffeef6;
-    --bg-image: url("../images/cover-image-light.png");
-}
