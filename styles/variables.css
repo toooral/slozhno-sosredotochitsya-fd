@@ -13,4 +13,7 @@
     --h2-text-color: rgba(0, 0, 40, 1);
     --font-size-standart: 18px;
     --fonts: "IBM Plex Mono", "sans-serif";
+    --hover-color: rgba(255, 0, 112, 0.4);
+    --padding: 10px;
+    --padding-medium: 20px;
 }
