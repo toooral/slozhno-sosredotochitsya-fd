@@ -1,1 +1,1 @@
-https://github.com/toooral/ono-tebe-nado-fd
+https://github.com/username/slozhno-sosredotochitsya-fd
