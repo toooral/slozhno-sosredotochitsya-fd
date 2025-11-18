@@ -25,9 +25,9 @@
 
     .header__rec {
     display: none;
+    }
   }
-   }
-  }
+
 
   .theme-light .header__rec {
     display: none;
