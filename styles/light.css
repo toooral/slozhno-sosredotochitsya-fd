@@ -31,13 +31,3 @@
   .theme-light .header__rec {
     display: none;
   }
-
-@media (prefers-color-scheme: light) .header__rec,
-  .theme-light .header__rec {
-    display: none;
-}
-
-
-  .theme-dark .header__rec {
-    display: flex;
-  }
