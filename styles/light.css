@@ -21,14 +21,23 @@
     --hover-color: rgba(50, 49, 45, 0.4);
     --h2-text-color: rgba(53, 52, 48, 1);
     --h3-text-color: rgba(53, 52, 48, 1);
-  }
+    }
 
     .header__rec {
-    display: none;
+      display: none;
     }
   }
 
-
   .theme-light .header__rec {
     display: none;
+  }
+
+@media (prefers-color-scheme: light) .header__rec,
+  .theme-light .header__rec {
+    display: none;
+}
+
+
+  .theme-dark .header__rec {
+    display: flex;
   }
