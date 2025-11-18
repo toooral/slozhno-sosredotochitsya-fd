@@ -172,7 +172,7 @@
     gap: 10px;
   }
   .question__name {
-    color: var(--accent-color);
+    color: var(--h3-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 23.4px;
