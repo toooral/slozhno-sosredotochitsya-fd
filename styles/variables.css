@@ -8,10 +8,11 @@
     --menu-color: rgba(255, 0, 112, 1);
     --full-answer-color: rgba(241, 178, 206, 1);
     --padding: 10px;
-    --h1-text-color: rgba(219, 0, 255, 1);
+    --banner-text-color: rgba(219, 0, 255, 1);
     --accent-color: rgba(255, 0, 112, 1);
-    --h2-text-color: rgba(0, 0, 40, 1);
-    --h3-text-color: rgba(255, 0, 112, 1);
+    --question-text-color: rgba(0, 0, 40, 1);
+    --answer-text-color: rgba(255, 0, 112, 1);
+    --answer-title-color: rgba(0, 0, 40, 1);
     --font-size-standart: 18px;
     --fonts: "IBM Plex Mono", "sans-serif";
     --hover-color: rgba(255, 0, 112, 0.4);

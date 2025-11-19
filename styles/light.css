@@ -4,10 +4,12 @@
     --bg-image: url("../images/cover-image-light.png");
     --menu-color: rgba(53, 52, 48, 1);
     --full-answer-color: rgba(53, 52, 48, 1);
-    --h1-text-color: rgba(255, 194, 230, 1);
+    --banner-text-color: rgba(255, 194, 230, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --hover-color: rgba(50, 49, 45, 0.4);
-    --h2-text-color: rgba(53, 52, 48, 1);
+    --question-text-color: rgba(53, 52, 48, 1);
+    --answer-title-color: rgba(53, 52, 48, 1);
+    --answer-text-color: rgba(53, 52, 48, 1);
 }
 
 @media (prefers-color-scheme: light) {
@@ -16,11 +18,12 @@
     --bg-image: url("../images/cover-image-light.png");
     --menu-color: rgba(53, 52, 48, 1);
     --full-answer-color: rgba(53, 52, 48, 1);
-    --h1-text-color: rgba(255, 194, 230, 1);
+    --banner-text-color: rgba(255, 194, 230, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --hover-color: rgba(50, 49, 45, 0.4);
-    --h2-text-color: rgba(53, 52, 48, 1);
-    --h3-text-color: rgba(53, 52, 48, 1);
+    --question-text-color: rgba(53, 52, 48, 1);
+    --answer-title-color: rgba(53, 52, 48, 1);
+    --answer-text-color: rgba(53, 52, 48, 1);
     }
 
     .header__rec {
