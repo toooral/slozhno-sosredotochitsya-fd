@@ -119,7 +119,7 @@
   }
 
   .header__theme-menu-button:focus-visible {
-    box-shadow: 0 1px 0 0 var(--accent-color);
+    box-shadow: 0 1px 0 0 var(--answer-text-color);
     }
 
   .header__theme-menu-button_active {
