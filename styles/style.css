@@ -12,11 +12,13 @@
   font-family: var(--fonts, "IBM Plex Mono", "sans-serif");
   padding-inline-start: var(--padding);
   padding-inline-end: var(--padding);
-  display: grid;
+  /*display: grid;*/
+    display: flex;
+  flex-direction: column;
   gap: 40px;
   }
 
-  .main {
+.main {
     display: grid;
     gap: 50px;
   }
@@ -144,6 +146,7 @@
     align-self: center;
     justify-self: start;
     font-family: var(--fonts, "IBM Plex Mono", "sans-serif");
+    display: grid;
   }
 
   .questions__section {
@@ -160,11 +163,6 @@
     display: grid;
     gap: 20px;
     list-style-type: none;
-  }
-
-  .article {
-    display: grid;
-    gap: 120px;
   }
 
   .article__block {
@@ -269,6 +267,10 @@
     padding-inline-start: var(--padding-medium);
     padding-inline-end: var(--padding-medium);
     gap: 60px;
+  }
+
+  .main {
+    gap: 80px;
   }
 
   .header {
@@ -384,6 +386,10 @@
     padding-inline-start: var(--padding-medium);
     padding-inline-end: var(--padding-medium);
     gap: 60px;
+  }
+
+    .main {
+    gap: 80px;
   }
 
   .header {
