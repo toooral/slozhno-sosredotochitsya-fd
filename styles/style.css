@@ -493,6 +493,7 @@
   .text__more {
     grid-column: 2 / 4;
     inline-size: 100%;
+    block-size: min-content;
     } 
 
   .gallery__section {
